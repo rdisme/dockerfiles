@@ -1,8 +1,11 @@
 # dockerfiles-php
 php 镜像文件
 
+[7.2-fpm-1.1.5](https://github.com/rdisme/dockerfiles/blob/master/php/releases/Dockerfile-7.2-fpm-1.1.5)
+> 在rdisme/php:7.2-fpm-1.1.4的基础上，安装了常用扩展
+
 [7.2-fpm-1.1.4](https://github.com/rdisme/dockerfiles/blob/master/php/releases/Dockerfile-7.2-fpm-1.1.4)
-> 在rdisme/php:7.2-fpm-1.1.2的基础上，安装了mcrypt-1.0.2扩展
+> 在rdisme/php:7.2-fpm-1.1.3的基础上，安装了mcrypt-1.0.2扩展
 
 [7.2-fpm-1.1.3](https://github.com/rdisme/dockerfiles/blob/master/php/releases/Dockerfile-7.2-fpm-1.1.3)
 > 在rdisme/php:7.2-fpm-1.1.2的基础上，安装了seaslog-2.0.2扩展
