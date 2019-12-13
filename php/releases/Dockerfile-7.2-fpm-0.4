@@ -1,0 +1,6 @@
+# 定义PHP基础来源
+FROM registry.cn-beijing.aliyuncs.com/rdisme/php:7.2-fpm-0.3
+
+# 安装seaslog扩展
+RUN pecl install https://pecl.php.net/get/SeasLog-2.0.2.tgz \
+    && docker-php-ext-enable seaslog
