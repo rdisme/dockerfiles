@@ -1,9 +1,0 @@
-# 定义PHP基础来源
-FROM registry.cn-beijing.aliyuncs.com/rdisme/php:7.2-fpm-0.4
-
-# 安装mcrypt扩展
-RUN apt-get update \
-	&& apt-get install -y \
-		libmcrypt-dev \
-    && pecl install mcrypt-1.0.2 \
-    && docker-php-ext-enable mcrypt
