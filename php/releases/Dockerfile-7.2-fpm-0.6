@@ -1,5 +1,5 @@
 # 定义PHP基础来源
-FROM rdisme/php:7.2-fpm-1.1.4
+FROM registry.cn-beijing.aliyuncs.com/rdisme/php:7.2-fpm-0.5
 
 # 安装PHP扩展
 RUN apt-get update \
