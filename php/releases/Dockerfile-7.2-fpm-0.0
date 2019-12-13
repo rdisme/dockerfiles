@@ -1,5 +1,5 @@
 # 定义PHP基础来源
-FROM rdisme/php:7.2-fpm-1.0
+FROM registry.cn-beijing.aliyuncs.com/rdisme/php:7.2-fpm-0
 
 # 更换apt-get源
 RUN  sed -i "s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g" /etc/apt/sources.list \
