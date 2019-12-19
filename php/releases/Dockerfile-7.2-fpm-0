@@ -1,5 +1,5 @@
 # 定义PHP基础来源
-FROM php:7.2-fpm
+FROM registry.cn-beijing.aliyuncs.com/rdisme/php:7.2-fpm
 
 ### set timezome
 ENV TZ=Asia/Shanghai
@@ -11,11 +11,11 @@ RUN  sed -i "s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g" /etc/apt/sources.lis
         && apt-get clean
 
 # 安装composer
-# 配置中国镜像
+# 配置aliyun镜像源
 RUN cd ~ \
     && curl -sS https://getcomposer.org/installer | php \
     && mv composer.phar /usr/local/bin/composer \
-    && composer config -g repo.packagist composer https://packagist.laravel-china.org
+    && composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 
 # 安装PHPRedis扩展
 RUN cd ~ \
