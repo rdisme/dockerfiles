@@ -1,5 +1,13 @@
 # dockerfiles-php
-php 镜像文件
+
+## 镜像拉取
+
+[阿里云镜像仓库](https://cr.console.aliyun.com/images/cn-beijing/rdisme/php/detail)
+
+[Docker Hub](https://hub.docker.com/repository/docker/rdisme/php)
+
+
+## 版本信息
 
 [7.2-fpm-2](https://github.com/rdisme/dockerfiles/blob/master/php/releases/Dockerfile-7.2-fpm-2)
 
