@@ -5,9 +5,15 @@ php 镜像文件
 
 > 安装了supervisor
 
+
 [7.2-fpm-1](https://github.com/rdisme/dockerfiles/blob/master/php/releases/Dockerfile-7.2-fpm-1)
 
+> 安装了sockets扩展
+
+
 [7.2-fpm-0](https://github.com/rdisme/dockerfiles/blob/master/php/releases/Dockerfile-7.2-fpm-0)
+
+> 安装PHP常用扩展
 
 
 [7.2-fpm]()
