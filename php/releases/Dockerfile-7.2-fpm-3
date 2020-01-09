@@ -49,6 +49,7 @@ RUN apt-get update \
         libzip-dev \
         zip \
         libmcrypt-dev \
+        supervisor \
         git \
     && docker-php-ext-configure gd \
         --with-gd \

@@ -9,6 +9,16 @@
 
 ## 版本信息
 
+[7.2-fpm-4](https://github.com/rdisme/dockerfiles/blob/master/php/releases/Dockerfile-7.2-fpm-4)
+
+> 在 7.2-fpm-1 基础上安装了git
+
+
+[7.2-fpm-3](https://github.com/rdisme/dockerfiles/blob/master/php/releases/Dockerfile-7.2-fpm-3)
+
+> 在 7.2-fpm-2 基础上安装了git
+
+
 [7.2-fpm-2](https://github.com/rdisme/dockerfiles/blob/master/php/releases/Dockerfile-7.2-fpm-2)
 
 > 安装了supervisor
